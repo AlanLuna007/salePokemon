@@ -1,0 +1,122 @@
+.SearchNav {
+    &-div-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px;
+        background: #e10098;
+        max-height: 64px;
+    }
+
+    &-div-container-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (min-width: 1200px) {
+            max-width: 1440px;
+          }
+    }
+
+    &-img-liverpool {
+        width: auto;
+        max-width: 174px;
+        max-height: 40px;
+        vertical-align: middle;
+        border-style: none;
+        @media only screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    &-img-liverpool-1 {
+        width: auto;
+        max-width: 174px;
+        max-height: 40px;
+        vertical-align: middle;
+        border-style: none;
+        @media only screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    &-div-nav-logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px;
+        @media only screen and (max-width: 767px) {
+            justify-content: flex-start;
+            width: auto;
+        }
+    }
+
+    &-div-nav-search {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    &-icon-share {
+        color: white !important;
+        font-size: 25px !important;
+        font-style: bold !important;
+        font-weight: bold !important;
+        padding-right: 2px !important;
+    }
+
+    &-icon-share:hover {
+        color: #1890ff !important;
+    }
+
+    &-div-nav-end {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+        @media only screen and (max-width: 767px) {
+            width: auto;
+        }
+    }
+
+    &-span-placeholder {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.SearchNav-icon-share .anticon svg:hover {
+    color: #1890ff;
+}
+
+.SearchNav-div-container .ant-btn-icon-only {
+    border: none;
+}
+
+.SearchNav-div-container .ant-btn:hover, .ant-btn:focus {
+    color: #e10098;
+    border-color: #e10098;
+    background: #fff;
+}
+
+.SearchNav-div-container .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+}
+
+.SearchNav-div-container .ant-btn:hover, .ant-btn:focus {
+    color: #e10098;
+    border-color: #e10098;
+    background: #fff;
+}
+
+.SearchNav-div-container .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+}
